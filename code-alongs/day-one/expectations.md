@@ -56,5 +56,5 @@ What to do when you get stuck?
     - we don't want you to forget everything you've learned
     - you can have a more flexible schedule, you still have to see us once a week
 2. We don't know when the interviews will happen - you have to be ready
-3. You might loose motivation - reach out to us
+3. You might lose motivation - reach out to us
 4. Show up to showcase session

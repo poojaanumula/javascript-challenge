@@ -1,0 +1,73 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid black;
+    &__link {
+        margin-left: 10px;
+    }
+}
+
+.intro {
+    display: flex;
+    // flex-wrap: wrap;
+    &__container {
+        border: 1px solid black;
+        // height: 300px;
+        width: 50%;
+        // padding: 20px;
+
+        &--bg-light-col {
+            background-color: antiquewhite;
+            // this could be a different modifier, and even a mixin
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+
+        &--bg-img {
+            background-image: url("https://placecats.com/neo/300/300");
+            height: 400px;
+            background-size: cover;
+            background-position: center;
+        }
+    }
+}
+
+.cat-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 32px;
+    gap: 16px;
+    &__card {
+        border: 1px solid black;
+        padding: 10px;
+    }
+}
+
+.footer {
+    display: flex;
+    padding: 16px 0;
+    // justify-content: space-around;
+    justify-content: center;
+    background-color: green;
+    &__link {
+        text-decoration: underline;
+    }
+}
+
+.wrapper {
+    width: 80%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
