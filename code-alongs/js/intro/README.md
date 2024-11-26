@@ -14,7 +14,7 @@ Because we can use JS for both frontend and backend, we run it in two different 
 -   the browser (DOM - Document Object Model)
 -   node
 
-## Challenge
+## Challenge - Types
 
 ```js
 typeof 15; // Prediction: {your answer here}
@@ -31,3 +31,11 @@ typeof (1 != 2); // Prediction:
 "johnny" - 5; // Prediction:
 99 * "luftbaloons"; // Prediction:
 ```
+
+## Challenge - Variables
+
+### MVP:
+
+1. Create three variables to store your first name, last name and age.
+2. Assign values to these variables.
+3. Print a string containing all three variables in the console (should look like "Hi, my name is XXX XXX and I am XX years old)
