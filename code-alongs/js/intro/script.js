@@ -15,3 +15,8 @@
 console.log("johny"-5);
 
 console.log(typeof "hello");
+
+const firstName = "pooja";
+const lastName = "noothi";
+const age = "30";
+console.log("Hi, my name is " +firstName+" "+lastName, " and my age is " + age);
