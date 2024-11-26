@@ -14,3 +14,4 @@
 
 console.log("johny"-5);
 
+console.log(typeof "hello");
