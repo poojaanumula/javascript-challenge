@@ -65,3 +65,11 @@ let x;
 console.log(x);
 x = 1;
 console.log(x);
+
+const firstName = "Martyna";
+const lastName = "Krol";
+let age = 29;
+
+console.log(
+    `Hi, my name is ${firstName} ${lastName} and I am ${age} years old`
+);
