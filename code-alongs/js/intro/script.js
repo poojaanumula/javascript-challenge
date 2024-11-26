@@ -12,15 +12,5 @@
 // book = { author: null, title: "Bible"}
 // book.noOfPages -> undefined
 
-console.log(23);
-console.log("martyna");
-console.log("krol");
-console.log(true);
-console.log("true");
-console.log(12);
-console.log("12");
+console.log("johny"-5);
 
-console.log(null);
-console.log(undefined);
-
-console.log(typeof "hello");
