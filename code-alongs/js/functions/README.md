@@ -1,3 +1,5 @@
+Create a git repository called javascript-challenges. Add your solutions to that repository to a feature/functions-challenges branch. Once done writing code, open a pull request to main. Add martynakr as a reviewer.
+
 ## Challenge: Calculating Moon Orbits
 
 ### MVP
