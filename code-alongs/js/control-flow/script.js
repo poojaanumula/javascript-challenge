@@ -294,9 +294,9 @@ switch (day) {
 //         console.log("Invalid Eye Color");
 // }
 
-console.log(
-    `The chance of your child having brown eyes is ${browPercent}, green is ${greenPercent}, blue is ${bluePercent}`
-);
+// console.log(
+//     `The chance of your child having brown eyes is ${browPercent}, green is ${greenPercent}, blue is ${bluePercent}`
+// );
 
 // const parent1 = "brown";
 // const parent2 = "brown";
