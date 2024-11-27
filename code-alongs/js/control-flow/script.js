@@ -190,12 +190,12 @@ Check if a number is odd or even
 1. If the number is odd return a string `"n is odd"`
 */
 
-const n = 45;
-if (n%2===0){
-    console.log(n, "is even")
+const u = 45;
+if (u%2===0){
+    console.log(u, "is even")
 }
 else{
-    console.log(n," is odd")
+    console.log(u," is odd")
 }
 /*
 Check for the smallest value
@@ -209,16 +209,16 @@ Check for the smallest value
 1. Depending on the value of `x` and `y`
 */
 
-const x= 10;
-const y=20;
-if(x>y){
-    console.log(`x is greater than y`)
+const m= 10;
+const f=20;
+if(m>f){
+    console.log(`m is greater than f`)
 }
 else if(x<y){
-    console.log(`x is smaller than y`)
+    console.log(`f is smaller than m`)
 }
 else{
-    console.log(`x is equal to y`)
+    console.log(`f is equal to m`)
 }
 
 /*
@@ -241,5 +241,49 @@ else if(typeof user === "number"){
 else{
     console.log("invalid input")
 }
+/*
+Create a switch block that will log a string for each day of the week.
 
+1. Create a variable called `day`
+2. The switch will be given a number and return the matching days of the week
+3. e.g. if `day = 2`, the switch should print `Today is Tuesday` in the console.
+4. Your switch block should also handle numbers out of range
+*/
+let day = 2;
+switch(day){
+case 1: console.log("Today is Monday");
+break;
+case 2: console.log("Today is Tuesday");
+break;
+case 3: console.log("Today is Wednesday");
+break;
+case 4: console.log("Today is Thursday");
+break;
+case 5: console.log("Today is Friday");
+break;
+case 6: console.log("Today is Saturday");
+break;
+case 7: console.log("Today is Sunday");
+break;
+default:console.log("Out of range")
+}
 
+/*
+Tell the user what eye colour their child would have.
+
+1. Create two variables `parent1` and `parent2`
+2. Given the eye colour of each parent, it should console log the probability
+   of their child having different eye colours, for example:
+   `Your eye colours are brown and blue, the chances of your child having blue eyes is --%, brown is --% and green is --%`
+3. Use the following image as a reference
+   ![alt text](image.png)
+   */
+const parent1= "brown"; 
+const parent2= "brown";
+const eyes = parent1+parent2;
+switch(eyes){
+    case ("brownbrown"):
+        console.log("Your eye colours are brown and brown, the chances of your child having blue eyes is 6%, brown is 70% and green is 18%")
+    break;
+    default:console.log("invalid eyes")
+    }
