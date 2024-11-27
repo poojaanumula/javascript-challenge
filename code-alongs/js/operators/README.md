@@ -17,7 +17,7 @@ whether the output is truthy / falsey.
 Be prepared to tell us your reasoning!
 
 ```js
-2 == "2";
+2 == "2"; 
 2 === 2;
 2 === "2";
 "2" + 3 == 23;
