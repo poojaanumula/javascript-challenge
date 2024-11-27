@@ -90,3 +90,97 @@ console.log(calculator(2, 2, "+"));
 console.log(calculator(12, 2, "/"));
 
 // Pure functions - homework
+function circleArea(r){
+    const area = 3.14 * r * r;
+    return area;
+    }
+    
+console.log("Area of circle is",circleArea(20));
+
+/* 2. Write a function that takes the radius of a circle and return its perimeter.*/
+function perimeter(r){
+    const perimeter = 2* 3.14* r;
+    return perimeter;
+}
+console.log("Perimeter of a circle is", perimeter(8));
+
+/*## Challenge: Years to Days & Seconds
+
+### MVP
+
+1. Create a function that takes your age in years and returns your age in days.
+1. Create a function that takes your age in years and returns your age in seconds. */
+
+function ageCalculator(a){
+    const age = a*365;
+    return age;
+}
+console.log("the age in days is...", ageCalculator(30));
+
+/*Create a function that takes your age in years and returns your age in seconds.*/
+function ageInNumber(myage)
+{
+    const oneYear = 24*60*60*365;
+    const result = myage*oneYear;
+    return result;
+}
+console.log("Age in Seconds", ageInNumber(30));
+
+/*### MVP
+
+There is a single operator in JavaScript, capable of providing the remainder of a division operation.
+Two numbers are passed as parameters.
+The first parameter divided by the second parameter will have a remainder, possibly zero. Return that value.
+
+```js
+remainder(1, 3) ➞ 1
+
+remainder(3, 4) ➞ 3
+
+remainder(-9, 45) ➞ -9
+
+remainder(5, 5) ➞ 0
+``` */
+
+function remainder(x,y){
+    const result= x%y;
+    return result;
+}
+console.log("The remainder is....", remainder(9,3));
+
+/*Given two numbers, return true if the sum of both numbers is less than 100. Otherwise return false.*/
+
+function sumOfNumbers(val1,val2){
+   const addition = val1+val2;
+   if (addition<100){
+    return true;
+   }else
+   {
+    return false;
+   }
+}
+console.log(sumOfNumbers(20,300));
+
+/*
+You are counting points for a basketball game, given the amount of 2-pointers scored and 3-pointers scored, find the final points for the team and return that value.*/
+function basketball(twopoiner, threepointer){
+const result = 2*twopoiner+3*threepointer;
+return result;
+}
+console.log("The final points are...",basketball(5,9))
+
+/*## Challenge: Calculating Moon Orbits
+
+### MVP
+
+1. Write a function that takes in a number of earth days, and returns the
+   number of orbits the moon can perform given days.
+
+```js
+moonOrbits(54) => 2
+moonOrbits(365) => 13.359 */
+function moonOrbits(days){
+    const rotations = days/27;
+    return rotations;
+}
+console.log("the rotations moon makes around earth in 365 days is ", moonOrbits(365))
